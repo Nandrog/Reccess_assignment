@@ -1,9 +1,3 @@
-"""Professional file organization automation using object-oriented programming.
-
-This script scans a selected folder and organizes files into category-based
-subfolders such as Documents, Images, Videos, Audio, Archives, Code, and Others.
-It can be used for a Downloads folder or any other directory.
-"""
 
 from __future__ import annotations
 
