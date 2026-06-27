@@ -1,8 +1,3 @@
-"""Contact Manager CLI
-
-Simple function-based contact management system with validation,
-search by name/phone/email, and an interactive menu.
-"""
 
 contacts = []
 
