@@ -1,0 +1,22 @@
+{
+    "REG001": {
+        "program": "Computer Science",
+        "address": "123 Maple Street, Springfield",
+        "contact": "+1 555-0101"
+    },
+    "REG002": {
+        "program": "Business Management",
+        "address": "456 Oak Avenue, Lakeside",
+        "contact": "+1 555-0202"
+    },
+    "REG003": {
+        "program": "Information Technology",
+        "address": "789 Pine Road, Hilltown",
+        "contact": "+1 555-0303"
+    },
+    "REG026": {
+        "program": "software engineering",
+        "address": "kikoni",
+        "contact": "0780973535"
+    }
+}

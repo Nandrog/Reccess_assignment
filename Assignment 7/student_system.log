@@ -1,0 +1,10 @@
+2026-06-28 22:21:21,434 INFO Storage initialized: CSV=C:\Users\User\Desktop\python\Assignment 7\students.csv JSON=C:\Users\User\Desktop\python\Assignment 7\students.json
+2026-06-28 22:21:48,105 INFO Loaded 3 student records from CSV.
+2026-06-28 22:21:48,114 INFO Loaded 3 student detail records from JSON.
+2026-06-28 22:23:45,710 INFO Saved 4 student records to CSV.
+2026-06-28 22:23:45,711 INFO Saved additional details for 4 students.
+2026-06-28 22:23:45,711 INFO Added student REG026.
+2026-06-28 22:24:31,285 INFO User exited the student management system.
+2026-06-28 22:49:04,161 INFO Storage initialized: CSV=C:\Users\User\Desktop\python\Assignment 7\students.csv JSON=C:\Users\User\Desktop\python\Assignment 7\students.json
+2026-06-28 22:49:09,119 INFO Loaded 4 student records from CSV.
+2026-06-28 22:49:09,120 INFO Loaded 4 student detail records from JSON.

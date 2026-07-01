@@ -1,0 +1,20 @@
+Student Record Management System Report
+
+Program Design:
+The student management application is built as a menu-driven Python program that stores core student data in a CSV file and additional student details in a JSON file. The program is modular, with functions for initialization, file I/O, validation, and CRUD operations. Logging is configured to record user actions and errors in a dedicated log file.
+
+Key Functions:
+- initialize_storage(): Ensures the storage files exist and creates default files if needed.
+- load_students_csv() / save_students_csv(): Read and write the CSV file with student records.
+- load_student_details() / save_student_details(): Read and write JSON details for student programs, addresses, and contacts.
+- add_student(), view_all_students(), search_student(), update_student(), delete_student(): Provide the main menu operations and combine CSV and JSON data for display.
+- validate_*(): Validate user input for registration number, age, email, contact, and grade.
+
+Exception Handling Strategy:
+The program uses try, except, and finally blocks around file operations and user actions to catch common errors such as file I/O failures and invalid data. Custom exceptions are defined with StudentError as a base class and StudentNotFoundError for missing records. Logging captures both routine actions and unexpected exceptions using logger.info(), logger.warning(), and logger.exception().
+
+Testing Results:
+Sample records were added successfully to students.csv and students.json. The program correctly displayed all students and supported searching by registration number. Update and delete operations preserved data consistency across both the CSV and JSON files. Invalid input cases were caught and reported with user-friendly messages.
+
+Conclusion:
+This application demonstrates file handling with CSV and JSON, input validation, structured exception handling, and logging. It provides a clear user interface for managing student records and is prepared for further extension.
